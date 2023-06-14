@@ -38,4 +38,11 @@ public class ProductDaoIMPL implements ProductDao {
 		return list;
 	}
 
+	@Override
+	public Product getMaxPriceProducts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
 }

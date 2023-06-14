@@ -9,4 +9,6 @@ public interface ProductService {
 	public boolean saveProduct(Product product);
 	
 	public List<Product> getAllProducts();
+	
+	public Product getMaxPriceProducts();
 }

@@ -10,7 +10,7 @@ public interface ProductDao {
 
 	public List<Product> getAllProducts();
 	
-	
+	public Product getMaxPriceProducts();
 	
 	
 }

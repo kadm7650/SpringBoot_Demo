@@ -47,6 +47,11 @@ public class ProductRestController {
 
 	}
 
-	
+	@GetMapping("/get-maxprice-product")
+	public Product getMaxPriceProduct() {
+		Product product = service.getMaxPriceProducts();
+		return product;
+
+	}
 
 }
